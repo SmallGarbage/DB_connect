@@ -1,0 +1,24 @@
+{
+  "mysql": {
+    "host": "",
+    "port": "",
+    "user": "",
+    "password": "",
+    "db": "",
+    "charset": "utf8"
+  },
+  "oracle": {
+    "host": "",
+    "port": "",
+    "user": "",
+    "password": "",
+    "service_name": ""
+  },
+  "mongodb": {
+    "host": "",
+    "port": "",
+    "user": "",
+    "password": "",
+    "service_name": ""
+  }
+}
