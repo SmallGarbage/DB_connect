@@ -6,7 +6,7 @@ import pymongo
 
 
 class MysqlClient:
-    def __init__(self, path="./config.json"):
+    def __init__(self, path=os.path.dirname(__file__) + "/config.json"):
         self.path = path
         self.__initial()
 
@@ -24,7 +24,7 @@ class MysqlClient:
 
 
 class OracleClient:
-    def __init__(self, path="./config.json"):
+    def __init__(self, path=os.path.dirname(__file__) + "/config.json"):
         self.path = path
         self.__initial()
 
